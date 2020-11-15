@@ -1,0 +1,45 @@
+<div id="a">
+</div>
+<div id="b">
+</div>
+<div id="c">
+</div>
+<div id="d">
+</div>
+<style>
+  body {
+    background: #62374e;
+  }
+
+  div {
+    width: 50;
+    height: 50;
+    background: #FDC57B;
+  }
+
+  #a {
+    position: fixed;
+    top: 50px;
+    left: 50px;
+
+  }
+
+  #b {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+  }
+
+  #c {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+  }
+
+  #d {
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+
+  }
+</style>
